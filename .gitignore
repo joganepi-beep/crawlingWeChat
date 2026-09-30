@@ -20,6 +20,7 @@ wechat-cli-main/
 tmp_*.py
 wechat_recent_export.py
 wechat_resolve_images.py
+使用说明.md
 
 # Editor and operating-system files
 .DS_Store
