@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wx-context"
+version = "0.1.0"
+description = "Local-only, allowlisted WeChat context collection"
+requires-python = ">=3.10"
+dependencies = ["pycryptodome>=3.20"]
+
+[project.scripts]
+wx-context = "wx_context.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,26 @@
+# Python build and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local WeChat state, extracted data, and generated media/documents
+.appdata/
+.tmp/
+.wechat-cli/
+exports/
+docx_qa*/
+docx_render_tmp/
+wechatauto_logs/
+
+# Downloaded third-party sources and local release archives
+wechat-cli-main/
+*.zip
+
+# One-off local collection and document-generation scripts
+tmp_*.py
+wechat_recent_export.py
+wechat_resolve_images.py
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
